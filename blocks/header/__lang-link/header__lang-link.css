@@ -1,0 +1,9 @@
+.header__lang-link {
+  padding-right: 18px;
+}
+
+.header__lang-link:last-of-type {
+  padding-right: 0;
+}
+
+

@@ -1,0 +1,32 @@
+.photo-grid {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 92px;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px,1fr));
+  gap: 16px;
+}
+
+/* стили для от 1024 и до 1280 — для небольших ноутбуков */
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+/* стили от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    margin-top: 64px;
+    padding: 0 16px;
+  }
+}

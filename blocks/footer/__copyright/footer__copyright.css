@@ -1,0 +1,13 @@
+.footer__copyright {
+  margin: 0;
+  vertical-align: text-bottom;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* стили от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    line-height: 1;
+  }
+}

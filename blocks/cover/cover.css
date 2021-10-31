@@ -1,0 +1,32 @@
+.cover {
+  min-width: calc(100% - 48px*2);
+  min-height: 740px;
+  margin-top: 92px;
+  box-sizing: border-box;
+  background-image: url(../../vendor/images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* стили для от 1024 и до 1280 — для небольших ноутбуков */
+@media screen and (max-width: 1279px) {
+  .cover {
+    min-width: 100%;
+    min-height: 640px;
+  }
+}
+
+/* стили от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .cover {
+    min-height: 200px;
+  }
+}

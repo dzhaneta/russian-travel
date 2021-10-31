@@ -1,0 +1,27 @@
+.place {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  gap: 40px 48px;
+}
+
+/* стили для от 1024 и до 1280 — для небольших ноутбуков */
+@media screen and (max-width: 1279px) {
+  .place {
+    gap: 32px 48px;
+  }
+}
+
+/* стили от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,17 @@
+.lead__title {
+  width: 720px;
+  margin: 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .lead__title {
+    width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

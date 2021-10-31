@@ -1,0 +1,8 @@
+/*код делает ссылки слегка прозрачными при наведении*/
+.link_opacity {
+  transition: opacity 1s ease 0s;
+}
+
+.link_opacity:hover {
+  opacity: 0.8;
+}

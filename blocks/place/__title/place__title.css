@@ -1,0 +1,24 @@
+.place__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+}
+
+
+/* стили от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .place__title {
+    padding: 0 16px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

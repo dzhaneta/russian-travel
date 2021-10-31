@@ -1,0 +1,29 @@
+.intro {
+  width: 100%;
+  margin-top: 92px;
+  padding: 0 442px 0 148px;
+  box-sizing: border-box;
+}
+
+/* стили для от 1024 и до 1280 — для небольших ноутбуков */
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding: 0 286px 0 48px;
+  }
+}
+
+/* стили от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1023px) {
+  .intro {
+    margin-top: 88px;
+    padding: 0 24px 0;
+  }
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .intro {
+    margin-top: 64px;
+    padding: 0 16px 0;
+  }
+}

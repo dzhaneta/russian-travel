@@ -1,0 +1,27 @@
+.footer {
+  min-width: calc(100% - 48px*2);
+  padding-top: 92px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* стили от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1023px) {
+  .footer {
+    min-width: calc(100% - 24px*2);
+    padding-top: 88px;
+  }
+}
+
+/* стили от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .footer {
+    min-width: calc(100% - 16px - 118px);
+    padding-top: 64px;
+    padding-right: calc(118px - 16px);
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,18 @@
+.lead__image {
+  width: 100%;
+  margin-top: 64px;
+}
+
+/* стили от 768 и до 1280 пикселей — от вертикального до небольших ноутбуков */
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+/* стили до 768 пикселей — от мобильных устройств до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .lead__image {
+    margin-top: 40px;
+  }
+}

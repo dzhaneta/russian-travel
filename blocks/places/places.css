@@ -1,0 +1,32 @@
+.places {
+  width: 100%;
+  margin-top: 92px;
+  padding: 0 148px;
+  box-sizing: border-box;
+  display: grid;
+  gap: 80px;
+}
+
+/* стили для от 1024 и до 1280 — для небольших ноутбуков */
+@media screen and (max-width: 1279px) {
+  .places {
+    margin-top: 92px;
+    padding: 0 48px;
+  }
+}
+
+/* стили от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1023px) {
+  .places {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .places {
+    margin-top: 64px;
+    padding: 0;
+  }
+}

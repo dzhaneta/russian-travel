@@ -1,0 +1,10 @@
+.place__website {
+  align-self: end;
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .place__website {
+    padding-left: 16px;
+  }
+}

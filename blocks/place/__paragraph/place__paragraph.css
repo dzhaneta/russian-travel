@@ -1,0 +1,26 @@
+.place__paragraph {
+  margin: 0;
+  padding-bottom: 26px;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+/* стили от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 16px 25px 16px;
+  }
+}
+
+.place__paragraph:last-of-type {
+  padding-bottom: 0;
+}

@@ -1,0 +1,15 @@
+.footer__link {
+  padding-right: 18px;
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .footer__link {
+    padding-right: 0;
+    padding-bottom: 32px;
+  }
+
+  .footer__link:last-of-type {
+    padding-bottom: 0;
+  }
+}

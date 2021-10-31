@@ -1,0 +1,20 @@
+.cover__subtitle {
+  width: 360px;
+  margin: 0 auto;
+  padding-top: 32px;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    padding-top: 16px;
+    width: 288px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

@@ -1,0 +1,22 @@
+/* стили от 1024 - для стандартных ноутбуков и до бесконечности */
+.header {
+  min-width: calc(100% - 48px*2);
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* стили от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1023px) {
+  .header {
+    min-width: calc(100% - 24px*2);
+  }
+}
+
+/* стили от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .header {
+    min-width: calc(100% - 16px*2);
+    padding-top: 16px;
+  }
+}

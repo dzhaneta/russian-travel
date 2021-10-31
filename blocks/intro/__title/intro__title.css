@@ -1,0 +1,15 @@
+.intro__title {
+  margin: 0;
+  text-align: left;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+}
+
+/* стили до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 767px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

@@ -1,0 +1,11 @@
+.body {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #2A2C2F;
+  font-family: 'Inter', 'Helvetica', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
