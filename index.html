@@ -15,16 +15,16 @@
     <header class="header">
       <img class="header__logo" src="./vendor/images/header-logo.svg" alt="контурная карта России">
       <ul class="header__lang-links">
-        <li class="header__lang-link"><a class="link link_active link_preactive" href="#">RU</a></li>
-        <li class="header__lang-link"><a class="link link_active" href="#">EN</a></li>
+        <li><a class="header__lang-link header__lang-link_active link" href="#">Ru</a></li>
+        <li><a class="header__lang-link link" href="#">En</a></li>
       </ul>
     </header>
 
-    <div class="content">
+    <main class="content">
 
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="lead__image" src="./vendor/images/lead-polka.jpg" alt="фото из плацкартного вагона">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
@@ -63,10 +63,10 @@
 
       <section class="places">
         <div class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link link_opacity" href="http://park-kosa.ru">park-kosa.ru</a>
+            <a class="place__link link" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./vendor/images/place-kosa.jpg" alt="Куршская Коса">
           <div>
@@ -79,10 +79,10 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Кольский</h3>
+          <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link link_opacity" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+            <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
           </div>
           <img class="place__image" src="./vendor/images/place-kolsky.jpg" alt="Кольский полуостров">
           <div>
@@ -95,10 +95,10 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Алтай</h3>
+          <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link link_opacity" href="https://www.facebook.com/vera.bashm">Facebook</a>
+            <a class="place__link link" href="https://www.facebook.com/vera.bashm">Facebook</a>
           </div>
           <img class="place__image" src="./vendor/images/place-altai.jpg" alt="вид из окна на леса Алтая">
           <div>
@@ -112,10 +112,10 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Зимний Байкал</h3>
+          <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link link_opacity" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+            <a class="place__link link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./vendor/images/place-winter-baikal.jpg" alt="толстый лед Байкала">
           <div>
@@ -129,10 +129,10 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Карелия</h3>
+          <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link link_opacity" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+            <a class="place__link link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./vendor/images/place-kosa.jpg" alt="Куршская Коса">
           <div>
@@ -152,16 +152,18 @@
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
       </section>
-    </div>
+    </main>
 
     <footer class="footer">
-      <ul class="footer__links">
-        <li class="footer__link"><a class="link link_opacity" href="https://yandex.ru/maps">Карты</a></li>
-        <li class="footer__link"><a class="link link_opacity" href="https://yandex.ru/pogoda">Погода</a></li>
-        <li class="footer__link"><a class="link link_opacity" href="https://rasp.yandex.ru">Расписание</a></li>
-        <li class="footer__link"><a class="link link_opacity" href="https://calendar.yandex.ru">Календарь</a></li>
-        <li class="footer__link"><a class="link link_opacity" href="https://travel.yandex.ru">Путешествия</a></li>
-      </ul>
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__link"><a class="link" href="https://yandex.ru/maps">Карты</a></li>
+          <li class="footer__link"><a class="link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li class="footer__link"><a class="link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li class="footer__link"><a class="link" href="https://calendar.yandex.ru">Календарь</a></li>
+          <li class="footer__link"><a class="link" href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy;2020. Dzhaneta x Praktikum</p>
     </footer>
   </div>

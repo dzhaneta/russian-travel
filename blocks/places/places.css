@@ -10,7 +10,6 @@
 /* стили для от 1024 и до 1280 — для небольших ноутбуков */
 @media screen and (max-width: 1279px) {
   .places {
-    margin-top: 92px;
     padding: 0 48px;
   }
 }
